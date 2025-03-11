@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+  height: 100vh;
+  margin: auto;
+  display: block;
+  font-size: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.csroll {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.block {
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  margin: 50px;
+  box-shadow: 0 0 10px black inset;
+}
+.block:nth-child(1) {
+  background: rgb(232, 88, 67);
+}
+.block:nth-child(2) {
+  background: rgb(26, 84, 207);
+  width: 500px;
+}
+.block:nth-child(3) {
+  background: rgb(36, 217, 137);
+}
+.block:nth-child(4) {
+  background: rgb(156, 86, 247);
+}
+.block:nth-child(5) {
+  background: rgb(250, 201, 82);
+}
+.block:nth-child(6) {
+  background: rgb(26, 84, 207);
+}
+.block:nth-child(7) {
+  background: rgb(157, 86, 247);
+}
+.block:nth-child(8) {
+  background: rgb(36, 217, 127);
+}
+.block:nth-child(9) {
+  background: rgb(232, 88, 67);
+}
+.block:nth-child(10) {
+  background: rgb(250, 201, 82);
+  width: 700px;
+}
+.block:nth-child(11) {
+  background: rgb(26, 84, 207);
+}
+.block:nth-child(12) {
+  background: rgb(36, 217, 127);
+}
+.block:nth-child(13) {
+  background: rgb(157, 88, 247);
+}
+.block:nth-child(14) {
+  background: rgb(250, 201, 82);
+}
+.block:nth-child(15) {
+  background: rgb(232, 88, 67);
+}
+.block:nth-child(16) {
+  background: rgb(36, 217, 127);
+  width: 700px;
+}
+.block:nth-child(17) {
+  background: rgb(157, 88, 247);
+}
+.block:nth-child(18) {
+  background: rgb(26, 84, 207);
+}
+.block:nth-child(19) {
+  background: rgb(250, 201, 82);
+}
+.block:nth-child(20) {
+  background: rgb(232, 88, 67);
+  width: 700px;
+}
+.block:nth-child(21) {
+  background: rgb(67, 232, 224);
+  width: 700px;
+}
+.block:nth-child(22) {
+  background: rgb(213, 67, 232);
+}
+.block:nth-child(23) {
+  background: rgb(67, 232, 75);
+}
+.block {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0%cover 40%;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    scale: 0.4;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
